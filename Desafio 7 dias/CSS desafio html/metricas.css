@@ -1,0 +1,99 @@
+.metricas-container{
+display: flex;
+align-items: center;
+padding: 0px 0px 96px;
+gap: 64px;
+justify-content: center;
+box-sizing: border-box;
+
+
+width: 100%;
+
+font-family: 'Inter';
+background: #FFFFFF;
+
+flex: none;
+order: 2;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.metricas-h1{
+width: 280px;
+height: 72px;
+
+/* Display xl/Semibold */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 60px;
+line-height: 72px;
+/* identical to box height, or 120% */
+
+letter-spacing: -0.02em;
+
+color: #8E2424;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.metricas-h2{
+    width: 280px;
+height: 28px;
+
+/* Text lg/Medium */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 28px;
+/* identical to box height, or 156% */
+
+
+/* Gray/900 */
+
+color: #101828;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.metricas-p{
+    width: 280px;
+height: 72px;
+
+/* Text md/Normal */
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+/* or 150% */
+
+
+/* Gray/500 */
+
+color: #667085;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}

@@ -1,0 +1,91 @@
+.busca__talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 96px 0px;
+    gap: auto;
+
+    width: 100%;
+}
+
+.busca__talentos-vagas{
+    width: 103px;
+    height: 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    
+    text-align: center;
+
+    color: #8E2424;
+
+    }
+
+.box__vagas{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+
+    width: 140px;
+    height: 28px;
+
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+
+    margin-bottom: 2rem;
+}
+
+.busca__talentos-texto{
+    width: 100%;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+
+    text-align: center;
+    letter-spacing: -0.02em;
+
+    color: #101828;
+
+    margin-bottom: 2rem;
+}
+
+.busca__talentos-p{
+    width: 768px;
+    height: 30px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #667085;
+
+    margin-bottom: 2rem;
+}
+
+.box__imagem{
+    width: 90rem;
+    height: auto;
+
+    margin-top: 2rem;
+}
+
+.imagem__buscando-talentos{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    top: 1.5rem;
+    align-items: center;
+}
