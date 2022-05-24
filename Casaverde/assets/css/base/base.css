@@ -1,0 +1,45 @@
+@import url(_variaveis.css);
+@import url(_reset.css7);
+
+body{
+    background: url(../../img/textura.png), url(../../img/fundo-linhas.png);
+    background-position: center;
+
+    font-family: var(--familia-corpo);
+    font-size: var(--tamanho-corpo);
+    color: var(--cinza);
+}
+
+.container{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.titulo{
+    font-size: var(--tamanho-titulo);
+}
+
+.titulo-destaque{
+    font-family: var(--familia-titulo-destaque);
+    color: var(--preto);
+    font-size: var(--tamanho-titulo-destaque);
+    font-weight: var(--peso-titulo-destaqe);
+    
+    display: block;
+
+    margin-top: .75rem;
+    margin-bottom: .75rem;
+
+}
+
+.alinhamento--esquerda{
+    text-align: left;
+}
+
+.alinhamento--meio{
+    text-align: center;
+}
+
+.texto{
+    line-height: 26px;
+}

@@ -1,0 +1,8 @@
+.cartao{
+    box-sizing: border-box;
+
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    background-color: var(--branco);
+    box-shadow: var(--amarelo-transparente);
+}
